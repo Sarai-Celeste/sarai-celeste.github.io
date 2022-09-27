@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Combo&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet" type="text/css">
+    <title>Ejemplo layout flexbox</title>
+    <style>
+
+        html, body {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background:#d09ad6;
+        }
+
+        body {
+            margin: 0;
+            }
+        h1 {
+          text-shadow: 2px 2px 0px black
+        }
+        h2 {
+        font-family:'Montserrat Alternates', cursive;
+        }
+        h3 {
+          color:rgb(226, 114, 170);
+  width: 500px;
+  border: 3px solid rgb(0, 0, 0);
+  background-color:black;
+  padding-bottom: 15px;
+        }
+        h4 {
+          color:rgb(20, 16, 18);
+  width: 500px;
+  border: 8px solid rgb(10, 9, 10);
+  background-color:rgb(240, 157, 205);
+  padding-bottom: 15px;
+        }
+  
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div {
+            display: flex;
+        }
+
+        footer {
+          display: flex;
+            margin-top: auto;
+            background: #9b23a8;
+        }
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-content-container {
+  display: flex;
+}
+
+#links-sidebar {
+  flex: 2;
+  background: pink;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 10;
+  padding: 20px 20% 70px 40px;
+}
+.main-content_img--full-width {
+    width: 60%;
+}
+#footer {
+  display: flex;
+  margin-top: auto;
+  background: #B5B2B2;
+}
+
+      </style>
+</head>
+<body>
+<header id="header">
+  <h1> <strong> Gatos  </h1></strong>
+  
+</header>
+<br>
+   <p align=center>El origen de los gatos se remonta a 12 millones de años, momento en que los felinos comenzaron a poblar la Tierra. Sin embargo, fue hace 4000 años cuando empezó su domesticación. En aquellos tiempos, los egipcios decidieron utilizarlos para mantener a las ratas lejos de sus almacenes de cereales.</p>
+
+<div id="main-content-container">
+  <div id="links-sidebar">
+    <div style="background: yellow;">
+      Dato interesante
+    </div>
+    <div style="background-color: red;">Otra cosa</div>
+    <aside style="background: pink">
+        <UL TYPE="Viñeta">
+        <LI>Tienen una flexibilidad y agilidad impresionante, pueden saltar desde más de 3 metros de altura. 
+        <LI> Los gatos pueden rotar sus orejas 180 grados.
+        <LI>Se comunican mediante vocalizaciones como maullidos, aullidos, ronroneos y gemidos, además de ciertas poses y movimientos.
+        <LI>Su esperanza de vida va de entre 12 y 14 años.
+        <LI>Además de saltar hasta 3.5 metros, se valen de sus uñas para escalar muros, árboles o superficies blandas.
+        </UL>
+    
+      </aside>
+  </div>
+
+  <section id="main-content"  style="flex:8;  padding-right: 5%;">
+
+  
+  <h2 align=center>Etapas de crecimiento</h2>
+
+      <center>
+      <img src=" https://www.zooplus.es/magazine/wp-content/uploads/2020/12/Crecimiento-del-gato.jpg" >
+      </center>
+      <br>
+        <h3>Primera fase: la primera semana de vida</h3>
+    <p>Después de nacer, los gatitos, aún ciegos y débiles, necesitan la leche de su madre. La leche materna, llamada calostro, contiene nutrientes importantes y anticuerpos protectores (proteínas de protección). Estos últimos son esenciales para la salud de los gatitos, ya que su sistema inmunitario todavía es inexperto y está debilitado. Además, como todavía no tienen todo el pelo, necesitan el calor protector de su madre.
+
+          Tras más o menos una semana, los gatitos abren los ojos y pierden el cordón umbilical por medio de secado. Para que los gatitos empiecen a vivir con salud, es imprescindible controlar su peso todos los días. Utilizando tablas de pesos, puedes comprobar si crecen como es debido e ir ajustando su alimentación si es necesario..</p>
+        
+        <h3>Segunda fase: llegada de los dientes de leche </h3>
+  <p>En las primeras semanas de vida, los gatitos siguen teniendo poca fuerza, por lo que se pasan casi todo el día durmiendo. Entre la tercera y la octava semana, salen los primeros dientes de leche. La dentadura de leche completa de los gatos contiene 26 dientecitos, mucho más pequeños y puntiagudos que los de la dentadura adulta..</p>
+
+        <h3>Tercera fase: los primeros alimentos sólidos</h3>
+        <p>Pasadas cuatro semanas, los gatitos ya han ganado algo de peso, por lo que ya pueden correr y retozar con sus hermanos. Además, empiezan a aceptar alimentos sólidos. Este es el momento de empezar a ofrecerles comida blanda para cachorros gradualmente. Este cambio de alimentación debe ser lento. El aparato digestivo aún está acostumbrado a la leche materna y se tiene que adaptar a la nueva alimentación. De lo contrario, podrían tener diarrea, estreñimiento y dolor de tripa.
+
+              <h3>Cuarta fase: los gatitos no paran de crecer</h3>
+    <p>Los gatitos tienen ahora dos meses y comen principalmente alimentos sólidos. Siguen creciendo y, por lo tanto, presentan una demanda de energía y nutrientes mayor que sus parientes adultos. Por eso, debes darles comida especial para gatitos, pensada específicamente para esta fase vital. Depende de ti si prefieres darles pienso o comida húmeda.
+
+          Además, este es el momento de llevarlos por primera vez al veterinario. Él te informará sobre las vacunas importantes y, si es necesario, sobre la alimentación correcta de los gatitos.
+          
+          Entre el tercer y el sexto mes de vida se produce el cambio de dientes. En este periodo, los dientes de leche se sustituyen por 30 dientes permanentes. A modo de comparación: las personas tenemos unos 32 dientes permanentes, mientras que los perros pueden llegar a tener 42.</p> 
+          
+          La alimentación correcta en edades tempranas desempeña un papel importante en el crecimiento de un gato. La comida especial ayuda a cubrir la gran demanda de energía del animal.</p>
+
+            <h3>Quinta fase: de gatito a gato</h3>
+    <p>Después de siete meses emocionantes, los gatos ya son adultos. Las gatas tienen el celo y pueden quedarse preñadas, y los gatos alcanzan la madurez sexual al cabo de un mes. A partir de este momento, después de informarte y reflexionar, puedes valorar la castración.
+
+            <h3>Sexta fase: fin del crecimiento del gato</h3>
+    <p>Los gatos ya han cumplido su primer año de vida y están mucho más tranquilos. Además, ya no aumentarán más de tamaño a partir de ahora. Pasados unos ocho años llenos de vivencias, los pelos de la zona de la boca empezarán a blanquear. Este suele ser el primer signo de envejecimiento, pero también pueden ir apareciendo síntomas de cansancio e inactividad.</p>
+
+
+
+  <h2  align=center>Tipos de gatos</h2>
+
+      <h4>Gato toyger</h4>
+    <p>¿Sabes que existe una raza de gatos que es como un tigre en miniatura? Sí, se llama gato toyger, que se traduce literalmente como “tigre de juguete”. Su aspecto es como el de uno de estos felinos salvajes, siendo este el principal motivo de su creciente popularidad durante los últimos años. </p>
+  
+    <center>
+        <img src=" https://smylepets.com/wp-content/uploads/2021/08/gato-toyger.jpg" >
+    </center>
+    
+      <h4> Gato Balines</h4>
+    <p>El gato balinés es un gato bonito y elegante, de tamaño mediano, con las mismas líneas estilizadas y esbeltas del siamés. El cuerpo es grácil y esbelto, la cabeza tiene un perfil recto y tiene grandes orejas, que pueden presentar mechones. Tiene un pelaje sedoso y vaporoso que puede medir de uno a varios centímetros de longitud y cae lacio sobre el cuerpo. La cola es larga y emplumada, con pelo mucho más largo que en el resto del cuerpo.</p>
+  
+      <center>
+        <img src="https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/CAT%20BREED%20Hero%20Desktop_0040_Balinese.webp?itok=fFqG9q47">
+      </center>
+  
+        <h4> Americano de pelo duro</h4>
+    <p>Como su propio nombre indica, lo más característico de esta raza es su pelaje. El gato americano de pelo duro es grande y tiene un pelaje duro, elástico y áspero; cada pelo, de tamaño corto o mediano, es fino y encrespado o rizado. Los bigotes suelen ser rizados.</p>
+
+    <center>
+      <img src="https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/CAT%20BREED%20Hero%20Desktop_0043_American_wirehair_OG.webp?itok=7bOrwybb">
+  </center>
+
+        <h4>Bobtail Japonés de pelo corto </h4>
+    <p>El bobtail japonés tiene una forma elegante y una musculatura bien desarrollada. La cabeza está cincelada con delicadeza, tiene unas orejas grandes en posición vertical y unos grandes ojos redondos con una inclinación pronunciada. En posición normal, la cola se extiende entre 5 y 8 cm y, cuando el gato está relajado, este lleva la cola en posición vertical. El pelo de la cola suele ser más grueso y largo que en el resto del pelaje y crece en todas las direcciones, creando así el efecto de un pompón o cola de conejo.</p>
+      
+    <center>
+      <img src="https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/CAT%20BREED%20Hero%20Desktop_0026_Japanese_bobtail_shorthair_OG.webp?itok=kPGy7sWk">
+    </center>
+
+      <h4>Bosque de Siberia</h4>
+    <p>El bosque de Siberia es un gato bastante grande, de constitución musculosa y torso en forma de barril. Tiene un pelaje largo y denso y la cabeza es, en cierto modo, cuneiforme, aunque presenta contornos redondeados y unos ojos son muy expresivos. La impresión física general es de fortaleza y solidez. Los pelos más largos del triple pelaje son claros cerca de la raíz y se van oscureciendo hacia la punta. Esto le da un cierto brillo al pelaje cuando el gato se mueve. Aunque el color más habitual es el pardo atigrado, un bosque de Siberia puede presentar cualquier patrón, color o combinación de colores, así como un liláceo liso o chocolate liso.</p>
+      
+    <center> 
+      <img src=" https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/CAT%20BREED%20Hero%20Desktop_0007_Siberian_forest_OG.webp?itok=a9RjBRgU">
+    </center>
+
+         <h4>Maine coon</h4>
+    <p>Esta raza puede pesar hasta 11 kilogramos. Por ello, este tipo de gatos necesitan hacer más deporte que las razas que tienen un tamaño mediano o pequeño, con el fin de que no padezcan de sobrepeso. </p>
+    
+        <center> 
+          <img src=" https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/gato-maine-koon.jpg">
+        </center>
+
+          <h4>Somalí</h4>
+    <p>De aspecto salvaje y con la elegancia propia de las razas orientales, el gato somalí reúne una serie de características físicas que lo hacen inconfundible: su cuerpo es musculoso, con porte elegante y la espalda ligeramente encorvada, pareciendo que se dispone a saltar en todo momento; la cabeza tiene forma triangular, con los contornos bien definidos.</p>
+  
+        <center>
+           <img src="https://www.hogarmania.com/archivos/201603/raza-gato-somali-668x400x80xX.jpg"
+        </center>
+  
+       <h4>Fold escoces</h4>
+    <p>El Fold escocés se distingue especialmente por sus orejas pequeñas y caídas hacia delante, pegadas a la cabeza. Los cachorros nacen con las orejas erguidas y empiezan a caerse hacia abajo a las tres o cuatro semanas de nacer hasta completarse el plegamiento al tercer mes. Este efecto de "orejas plegadas" surge de una mutación natural sufrida por el gen Fd (gen normal de las orejas), que provoca un mayor plegamiento de las mismas</p>
+  
+         <center>
+            <img src= "https://www.hogarmania.com/archivos/201602/gato-raza-fold-escoces-668x400x80xX.jpg"
+         </center>
+
+  </section>
+</div>
+
+<footer id="footer">
+  <a href ="https://www.nationalgeographic.es/animales/gato-domestico"> Mas informacion aqui  </a> 
+
+  <a id="otro_enlace" href="piano/piano.html" style="margin-left:auto">Piano</a>
+</footer>
+</body>
+</html>
